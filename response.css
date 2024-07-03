@@ -1,0 +1,25 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.parent{
+    background-color: rgb(60, 170, 221);
+    display: grid;
+
+    grid-template-columns: repeat(4,1fr);
+
+
+
+}
+.div{
+    background-color: yellow;
+    height: 100px;
+
+}
+    
+@media (min-width:300px) and (max-width:575.98px){
+    .parent{
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+}
