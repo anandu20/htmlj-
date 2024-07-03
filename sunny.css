@@ -1,0 +1,347 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.parent{
+    
+    width: 100%;
+    height: 100vh;
+    background-image: url('oranges.jpg');
+    background-position: center;
+    background-size: contain;
+    object-fit: cover;
+    position: relative;
+    
+}
+
+h3{
+    color: aliceblue;
+}
+.nav{
+
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    color: aliceblue;
+
+    
+
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+li{
+    margin: 20px;
+}
+.bt{
+    background-color: aliceblue;
+    color: black;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.sun{
+    margin-left: 10px;
+}
+.main{
+    text-align:center;
+    margin-top: 180px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    grid-template-rows: repeat(3,75%);
+    width: 100%;
+    height: 100vh;
+    
+
+}
+.card1{
+    
+        
+
+}
+.cd1{
+    margin-top: 140px;
+   
+    margin-left: 190px
+
+}
+
+
+.cd2{
+    text-align: justify;
+    width: 300px;
+    height: 300px;
+    margin-left: 190px;
+    margin-top: 40px;
+    position: absolute;
+
+}
+.cd3{
+    position: relative;
+    text-align:justify;
+    margin-top: 190px;
+    font-size: 18px;
+    margin-left: 190px;
+
+
+}
+.card2{
+    background-image: url('egg.jpg');
+}
+.card3{
+    background-image: url('cup.jpg');
+    object-fit: cover;
+    background-size: cover;
+}
+.card4{
+    
+}
+.cv1{
+    margin-top: 140px;
+    
+    margin-left: 180px;
+}
+
+.cv2{
+    text-align: justify;
+    width: 300px;
+    height: 300px;
+    margin-left: 190px;
+    margin-top: 40px;
+    position: absolute;
+
+}
+.cv3{
+    position: relative;
+    text-align:justify;
+    margin-top: 190px;
+    font-size: 18px;
+    margin-left: 190px;
+
+
+}
+.card5{
+    
+    background-image: url('cherry.jpg');
+    object-fit: cover;
+    background-size:cover ;
+}
+.cherry h2{
+    
+    margin-top: 400px;
+    text-align: center;
+    position: relative;
+    color: rgb(5, 59, 49);
+}
+.cherry p{
+    text-align: center;
+    width: 400px;
+    height: 300px;
+    padding-left: 160px;
+    margin-top: 20px;
+    color: rgba(5, 59, 49, 0.901);
+
+
+}
+.card6{
+    
+    background-image: url('orange.jpg');
+    object-fit: cover;
+    background-size: cover;
+}
+.orng h2{
+    
+    margin-top: 400px;
+    text-align: center;
+    position: relative;
+    color: rgb(5, 7, 116);
+
+}
+.orng p{
+    text-align: center;
+    width: 400px;
+    height: 300px;
+    padding-left: 160px;
+    margin-top: 20px;
+    color: rgba(5, 7, 116, 0.829);
+
+}
+.client h2{
+    
+    margin-top: 1100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    letter-spacing: 5px;
+}
+.grid2{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+
+}
+.crd1{
+    
+    width: 25%;
+}
+.crd1 img{
+    width: 115px;
+    height: 115px;
+    border-radius: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+.crd2{
+    
+    width: 25%;
+}
+.crd3{
+    
+    width: 25%;
+}
+.crd1 p{
+    margin-top: 40px;
+    text-align: justify;
+    text-align: center;
+    margin-left: 30px; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 300px;  
+  
+}
+.crd1 h2{
+    margin-top: 70px;
+}
+
+.crd1 h4{
+    margin-top: 5px;
+
+    color: rgba(0, 0, 0, 0.7);
+}
+.crd2 img{
+    width: 115px;
+    height: 115px;
+    border-radius: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+.crd2 p{
+    margin-top: 40px;
+    text-align: justify;
+    text-align: center;
+    margin-left: 30px; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 300px;  
+  
+}
+.crd2 h2{
+    margin-top: 70px;
+}
+
+.crd2 h4{
+    margin-top: 5px;
+
+    color: rgba(0, 0, 0, 0.7);
+}
+.crd3 img{
+    width: 115px;
+    height: 115px;
+    border-radius: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+.crd3 p{
+    margin-top: 40px;
+    text-align: justify;
+    text-align: center;
+    margin-left: 30px; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 300px;  
+  
+}
+.crd3 h2{
+    margin-top: 70px;
+}
+
+.crd3 h4{
+    margin-top: 5px;
+
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.grid3{
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    grid-template-rows: repeat(1,1fr);
+    width: 100%;
+    height: 70vh;
+    
+
+}
+.pic1{
+    background-image: url(milk.jpg);
+    object-fit: cover;
+    background-position: center;
+    background-size:cover ;
+}
+.pic2{
+    background-image: url(lemon.jpg);
+    object-fit: cover;
+    background-position: center;
+    background-size:cover ;
+}
+.pic3{
+    background-image: url(conee.jpg);
+    object-fit: cover;
+    background-position: center;
+    background-size:cover ;
+}
+
+.pic4{
+    background-image: url(qube.jpg);
+    object-fit: cover;
+    background-position: center;
+    background-size:cover ;
+}
+.foot{
+    height: 50vh;
+    background-color: aqua;
+}
+ .sunny{
+    padding-top: 30px;
+    text-align: center;
+    color: rgb(9, 94, 43);
+}
+.foot ul{
+    padding-top: 20px;
+    padding-left: 600px;
+    width: 100px;
+    opacity: .7;
+    color: rgb(13, 95, 46);
+}
+.icons{
+    display: flex;
+    justify-content: center;
+}
+.icons img{
+    width: 40px;
+    padding-top: 100px;
+    padding-left: 20px;
+    margin-left: 50px;
+    opacity: .6;
+}
+
+
+
+
+
+
+
