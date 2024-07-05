@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.animi{
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    animation-name: anime;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    
+
+}
+@keyframes anime{
+    0%{
+        top: 0;
+        left: 0;
+        background-color: blue;
+    }
+    25%{
+        top: 300px;
+        left: 0;
+        background-color: crimson;
+    }
+    50%{
+        top: 300px;
+        left: 250px;
+        background-color: wheat;
+        
+    }
+    75%{
+        top:0px;
+        left:600px;
+        background-color: aquamarine;
+
+    }
+    100%{
+        top:0px;
+        left:0px;
+        background-color: blue;
+
+
+    }
+}
+.ani{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    animation-name: ani;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    
+
+}
+@keyframes ani{
+    0%{
+        
+        top: 0px;
+        left: 0px;
+        border-radius: 0%;
+       
+    }
+    25%{   
+        top: 0;
+        left: 300px;
+        background-color: blueviolet;
+        border-radius: 
+        
+    
+       
+    }
+    50%{
+
+        top: 350px;
+        left: 300px;
+        background-color: black;
+        border-radius: 50%;
+        
+        
+    }
+    75%{
+        
+        top: 30px;
+        left: 630px;
+        border-radius:50%;
+    }
+    100%{
+        
+        top: 25px;
+        left: 25px;
+        border-radius:50%;
+        
+        
+    }
+}
