@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.parent{
+    width: 100%;
+    height: 100vh;
+    background-color: aquamarine;
+}
+.nav1{
+    width: 100%;
+    height:7vh;
+    background-color:rgb(163,143,105);
+}
+.nav1 h3{
+
+    color: aliceblue;
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav2{
+
+    height: 11vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+
+}
+.left{
+    width: 50%;
+    line-height: 11vh;
+}
+.left ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.left li{
+    margin: 17px;
+}
+.nav2 img{
+    width: 35px;
+    height: 35px;
+    margin-top: 24px;
+    
+}
+.right{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+.right ul{
+    width: 70%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.right ul img{
+    margin-top: 6px;
+    width: 30px;
+    height: 30px;
+    padding-left: 5px;
+}
+.right ul li{
+    width: 40px;
+    height:40px
+}
+
+.bar{
+    border: 2px solid rgb(130, 128, 128);
+    height: 4vh;
+    width: 150px;
+    display: flex;
+    margin-top: 7px;
+}
+.bar img{
+    width: 20px;
+    height: 20px;
+    margin-top:6px;
+    margin-left: 10px;
+}
+.bar h4{
+
+    color: aliceblue;
+    margin-left: 15px;
+    margin-top: 6px;   
+    display: flex;
+}
+.left li:hover{
+    text-decoration: underline rgb(234, 95, 26);
+    text-underline-offset: 6px;
+
+}
+.bar:hover{
+    border: 2px solid rgb(248, 247, 247);
+}
+.right ul li:hover{
+    background-color: rgba(128, 128, 128, 0.67);
+    border-radius: 50px;
+}
+.container{
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(90deg,rgb(227, 154, 205),rgb(211, 18, 156),rgb(211, 18, 156),rgb(196, 59, 155),rgb(243, 40, 182),rgb(211, 18, 156),rgb(189, 92, 160));
+}
+
+
