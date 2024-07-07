@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -21,6 +24,10 @@
 }
 .nav2{
 
+
+    position: sticky;
+    top: 0;
+    z-index: 7;
     height: 11vh;
     background-color: black;
     display: flex;
@@ -89,8 +96,9 @@
 
     color: aliceblue;
     margin-left: 15px;
-    margin-top: 6px;   
+    margin-top: 3px;   
     display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .left li:hover{
     text-decoration: underline rgb(234, 95, 26);
@@ -105,9 +113,528 @@
     border-radius: 50px;
 }
 .container{
+    
     width: 100%;
-    height: 50vh;
+    height: 35vh;
     background: linear-gradient(90deg,rgb(227, 154, 205),rgb(211, 18, 156),rgb(211, 18, 156),rgb(196, 59, 155),rgb(243, 40, 182),rgb(211, 18, 156),rgb(189, 92, 160));
+    padding-top: 120px;
 }
+.content{
+    justify-content: center;
+    width:60%;
+    height: 20vh;
+
+    margin-left: 300px;
+  
+
+}
+.content h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: aliceblue;
+    font-size: 36px;
+    
+}
+.content  p{
+    height: 40%;
+    text-align: center;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    line-height: 6vh;
+
+}
+.off p{
+    height: 20%;
+    color: aliceblue;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    line-height: 3vh;
+  
+}
+.bt{
+    height: 35%;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 240px;
+}
+
+
+
+.bt button{
+
+    margin-top: 22px;
+    height: 40px;
+    width: 110px;
+    margin-left: 15px;
+    font-weight:bold;
+    border:1px solid white;
+    font-size: 15px;
+}
+.container2{
+    width: 100%;
+    height: 55vh;
+    background-color: aliceblue;
+}
+.container2 h2{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:39px;
+    padding-top: 90px;
+    
+}
+.flat h3{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 19px;
+    margin-top: 10px;
+
+
+}
+.round{
+    width: 60%;
+    
+    display: flex;
+    justify-content: space-evenly;
+
+    margin-left:290px;
+    margin-top: 20px;
+
+}
+.cd{
+    height: 130px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 3px solid rgb(220, 151, 32);
+    color: aliceblue;
+    font-size: 24px;
+    font-family: "Bebas Neue", sans-serif;
+
+
+}
+.in{
+    height: 125px;
+    width: 125px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    background: linear-gradient(90deg,rgb(227, 154, 205),rgb(211, 18, 156),rgb(211, 18, 156),rgb(196, 59, 155),rgb(243, 40, 182),rgb(211, 18, 156),rgb(189, 92, 160));
+    align-items: center;
+
+}
+.container3{
+    width: 100%;
+    height: 70vh;
+    background-color: burlywood;
+    background-image: url('sibling.jpg');
+    object-fit: cover;
+    background-size: cover;
+    position: relative;
+    
+}
+
+/* .container3 img{
+    width: 65px;
+    height: 65px;
+    margin-left: 1180px;
+    margin-top: 20px;
+    border-right: 1px solid white;
+    padding-right: 30px;
+} */
+ .carrot{
+    position: absolute;
+    font-size: 20px;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;    
+    right: 2%;
+    margin-top:30px;
+    width: 14%;
+}
+.carrot img{
+    width: 55px;
+    height: 55px;
+    border-right: 1px solid white;
+    padding-right: 15px;
+}
+.carrot h2{
+    font-size: 30px;
+    padding-top: 10px;
+}
+.car{
+    position: relative;
+    left: 3%;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.car h1{
+    padding-top: 160px;
+ 
+    font-size: 38px;
+    padding-bottom: 8px;
+}
+.pg1{
+    font-size: 26px;
+    padding-bottom: 8px;
+ 
+}
+.pg2{
+    font-size: 18px;
+
+}
+button{
+    
+    width: 140px;
+    margin-top: 30px;
+    margin-left: 42px;
+    height: 6vh;
+   
+}
+.container4{
+    margin-top: 10px;
+    width: 100%;
+    height: 70vh;
+    background-color: blue;
+    background-image: url('tracks.jpg');
+    object-fit: cover;
+    background-size: cover;
+    position: relative;
+}
+.palm{
+    position: absolute;
+    right: 2%;
+    top: 1%;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;    
+
+    width: 10%;
+    
+}
+
+
+.palm img{
+
+    width: 60px;
+    height: 70px;
+
+}
+.img4{
+    padding-right: 15px;
+    border-right: 1px solid white;
+}
+.cont{
+    width: 20%;
+    height: 20%;
+    
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+.cont h2{
+    text-shadow: 2px 2px 4px #000000;
+
+    font-size: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    text-align: center;
+}
+.cont p{
+    text-shadow: 2px 2px 4px #000000;
+
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    text-align: center;
+
+}
+.bb{
+    position: absolute;
+    margin-left: 70px;
+    border: none;
+    font-weight: bolder;
+
+}
+.container5{
+    width: 100%;
+    height: 60vh;
+    margin-top: 60px;
+    background-color: blueviolet;
+    position: relative;
+    color: white;
+    background-image: url('shoes.jpg');
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    
+}
+.logo1 img{
+    position:absolute;
+    left: 2%;
+    width: 90px;
+    height: 90px;
+    padding-top: 20px;
+}
+.for h2{
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    right: 3%;
+    font-size: 28px;
+    padding-top: 20px;
+}
+
+.btn button{
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    margin-top: 320px;
+    margin-left: 730px;
+    font-weight: bolder;
+
+}
+.container6{
+    width: 100%;
+    height: 100vh;
+    margin-top: 30px;
+    background-color: cadetblue;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.rights{
+    width:46%;
+    height: 100%;
+    background-color: orange;
+    /* border: 1px solid black; */
+    background-image:url('man.jpg');
+    object-fit:cover ;
+    background-position: top;
+    background-size: cover;
+
+}
+.lefts{
+    width:46%;
+    height: 100%;
+    background-color: rgb(0, 4, 255);
+   /* border: 1px solid black; */
+    background-image: url('women.jpg');
+    object-fit:cover ;
+    background-position:top;
+    background-size: cover;
+}
+.container7{
+    width: 100%;
+    height:20vh;
+    background-color:white;
+    display:flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items:center;
+
+}
+
+.textleft{
+    width: 50%;
+}
+.textright{
+   width: 50%;
+
+}
+
+.textleft p{
+    padding-left: 10px;
+}
+.textleft button{
+    width: 350px;
+    height: 50px;
+    margin-left: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+    border: none;
+}
+.textright button{
+    width: 350px;
+    height: 50px;
+    margin-left: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+    border: none;
+
+}
+.container8{
+    width: 100%;
+    height: 70vh;
+    background-color: black;
+    display: flex;
+    justify-content: left;
+}
+.two1{
+    width: 60%;
+    height: 100%;
+    background-color: cadetblue;
+    background-image: url('parag.webp');
+
+}
+.two2{
+    width: 40%;
+    height: 100%;
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+.two2 h1{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 40px;
+}
+.parag1{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 8px;
+}
+.parag2{
+    text-align: center;
+    font-size: 16px;
+    padding-top: 6px;
+}
+.two2 button{
+    align-items: center;
+    margin-left: 250px;
+    font-weight: bolder;
+    font-size: 16px;
+    border: none;
+
+}
+.container9{
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    word-spacing: 6px;
+
+}
+.container10{
+    width: 100%;
+    height: 60vh;
+    background-color:white;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 2px black;
+
+}
+.bgi1{
+    width: 23%;
+    height: 90%;
+    background-color: brown;
+    background-image: url('bags.jpg');
+    background-position:center;
+    object-fit: cover;
+    background-size: cover;
+    position: relative;
+    
+    
+}
+.bgi2{
+    width: 23%;
+    height: 90%;
+    background-color: brown;
+    background-image: url('casual.jpg');
+    background-position:center;
+    object-fit: cover;
+    background-size: cover;
+    position: relative;
+    
+}
+.bgi3{
+    width: 23%;
+    height: 90%;
+    background-color: brown;
+    background-image: url('pair.jpg');
+    background-position:center;
+    object-fit: cover;
+    background-size: cover;
+    position: relative;
+}
+.bgi4{
+    width: 23%;
+    height: 90%;
+    background-color: brown;
+    background-image: url('trend.jpg');
+    background-position:center;
+    object-fit: cover;
+    background-size: cover;
+    position: relative;
+}
+.bgi1 h1{
+    position: absolute;
+    bottom: 7%;
+    left: 2%;
+    text-shadow: 20px 20px 20px 40px black;
+    
+    
+}
+.bgi1 h3{
+    position: absolute;
+    bottom: 2%;
+    left: 2%;
+    text-shadow: 20px 20px 40px black;
+}
+.bgi2 h1{
+    position: absolute;
+    bottom: 7%;
+    left: 2%;
+}
+.bgi2 h3{
+    position: absolute;
+    bottom: 2%;
+    left: 2%;
+}
+.bgi3 h1{
+    position: absolute;
+    bottom: 7%;
+    left: 2%;
+}
+.bgi3 h3{
+    position: absolute;
+    bottom: 2%;
+    left: 2%;
+}.bgi4 h1{
+    position: absolute;
+    bottom: 7%;
+    left: 2%;
+}
+.bgi4 h3{
+    position: absolute;
+    bottom: 2%;
+    left: 2%;
+}
+
+
+
 
 
