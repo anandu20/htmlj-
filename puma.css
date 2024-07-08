@@ -167,7 +167,7 @@
     margin-top: 22px;
     height: 40px;
     width: 110px;
-    margin-left: 15px;
+    margin-left: 45px;
     font-weight:bold;
     border:1px solid white;
     font-size: 15px;
@@ -295,6 +295,7 @@ button{
     margin-top: 30px;
     margin-left: 42px;
     height: 6vh;
+    font-weight: bolder;
    
 }
 .container4{
@@ -633,8 +634,131 @@ button{
     bottom: 2%;
     left: 2%;
 }
+.container11{
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(187, 198, 219);
+    margin-top: 80px;
+    position: relative;
+
+}
+.boot1{
+    position: absolute;
+    margin-left: 35px;
+    width: 750px;
+    height: 400px;
+    background-color: rgb(80, 255, 83);
+    top: 43%;  
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-image: url('boot.jpg');
+    left: 2%;
 
 
+}
+.boot2{
+    position: absolute;
+    right: 2%;
+    width: 850px;
+    height: 750px;
+    background-color: rgba(255, 127, 80, 0.548);
+    bottom: -20% ;
+    background-image: url('lays.jpg');
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+.velocity{
+    top: 5%;
+    left: 4%;
+    position: absolute;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.velocity h1{
+    font-size: 46px;
+    
+}
+.velocity p{
+    font-size: 30px;
+    font-weight: lighter;
+}
+.shop{
+    background-color: #000000be;
+    color: white;
+    border: none;
+    width: 150px;
+    margin-left: 1px;
+    font-weight: bolder;
+    font-size: 17px;
+
+}
+.nitro{
+    background-color: #000000be;
+    color: white;
+    border: none;
+    width: 330px;
+    margin-left: 10px;
+    font-weight: bolder;
+    font-size: 17px;
+    
+}
+.container12{
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    background-color: brown;
+    margin-top: 170px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.blue1{
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    width: 45%;
+    height: 100%;
+    background-color: blue;
+    background-image: url('bb.jpg');
+}
+.blue2{
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    background-image:url('man.avif');
+    width: 55%;
+    height: 100%;
+    background-color: #000000;
+}
+.man{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 60px;
+    font-size: 25px;
+}
+.man p{
+    font-size: 30px;
+    font-weight: lighter;
+}
+.s1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 16px;
+    border: none;
+    margin-left: 1px;
+}
+.s2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 16px;
+    border: none;
+    width: 250px;
+    margin-left: 10px;
+}
 
 
 
