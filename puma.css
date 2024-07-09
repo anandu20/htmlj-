@@ -727,7 +727,7 @@ button{
     object-fit: cover;
     background-position: center;
     background-size: cover;
-    background-image:url('man.avif');
+    background-image:url('city.avif');
     width: 55%;
     height: 100%;
     background-color: #000000;
@@ -759,6 +759,78 @@ button{
     width: 250px;
     margin-left: 10px;
 }
+.container13{
+    position: relative;
+    width: 100%;
+    height: 62vh;
+    margin-top: 22px;
+    background-color: chocolate;
+ 
+    background-position: center;
+    background-size: cover;
+    background-image: url('grid.jpg');
+  
+    
+}
+.grid1{
+    position: absolute;
+    object-fit: cover;
+    background-position:left;
+    background-size: cover;
+    width:360px;
+    height: 260px;
+    background-color: bisque;
+    background-image: url('track.jpg');
+    margin-left: 300px;
+    margin-top: 240px;
+}
+.grid2{
+    position: absolute;
+    object-fit: cover;
+    background-position:left;
+    background-size: cover;
+    width:300px;
+    height: 200px;
+    background-color: bisque;
+    background-image: url('tie.jpg');
+    margin-left: 100px;
+    margin-top: 25px;
+}
+.grid3{
+    position: absolute;
+    object-fit: cover;
+    background-position:center;
+    background-size: cover;
+    width:350px;
+    height: 400px;
+    background-color: bisque;
+    background-image: url('kareena.jpeg');
+    margin-left: 765px;
+    margin-top: 65px;
+}
+.sneaker{
 
+    position:absolute;
+    right:3%;
+    text-align: center;
+    margin-top: 199px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sneaker h1{
+    font-size: 40px;
+}
+.one{
+    font-size: 25px;
+    font-weight: lighter;
+    padding-top: 20px;
+}
+.sneaker button{
+    background-color: black;
+    color: white;
+    border: none;
+}
+.exp{
+    width: 200px;
+}
 
 
