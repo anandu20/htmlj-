@@ -832,5 +832,260 @@ button{
 .exp{
     width: 200px;
 }
+.container14{
+    width: 100%;
+    height: 70vh;
+    /* background-color: blue; */
+    margin-top: 60px;
+    position: relative;
+}
+.spotlight{
+    height: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-left: 20px;
+    width: 100%;
 
 
+}
+.mainscrl{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    overflow-x:scroll ;
+}
+.scrl{
+
+    /* margin-top:60px; */
+    width: 27rem;
+    height: 28rem;
+   /* border: 1px solid rgb(160, 216, 30); */
+    background-color: rgb(255, 255, 255);
+    margin-right:12px ;
+}
+.image1{
+    width: 27rem;
+    height: 80%;
+    position: relative;
+    align-items: center;
+}
+.imag2{
+    position: absolute;
+    left: 0;
+    width: 15%;
+    background-color: red;
+    color: white;
+}
+.image1 img{
+    position: absolute;
+    width: 27rem;
+    height: 100%;
+
+}
+.content1{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+
+}
+.content2 p{
+    font-size: 20px;
+    width: 95%;
+}
+.content3 h4{
+    font-size: 20px;
+}
+.container15{
+    margin-top: 90px;
+    width: 100%;
+    height:60vh ;
+    background-color: orange;
+    position: relative;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+   
+}
+.ch1{
+    width: 40%;
+    height: 100%;
+    background: linear-gradient(to top, #339797 0%, #e15e5e 50%, #339797 100%);
+    position: absolute;
+    left: 0%;
+}
+.ch2{
+    width: 60%;
+    height: 100%;
+    background-color: #cf4242;
+    position: absolute;
+    background-image: url('chopra.jpg');
+    left: 40%;
+    object-fit: cover;
+    background-position: center;
+    background-size:cover ;
+}
+.ind{
+    margin-top: 180px;
+    font-size: 45px;
+}
+.era{
+    font-size: 27px;
+    padding-top: 10px;
+}
+.bn{
+    border: none;
+    margin-left: 10px;
+    font-size: 16px;
+}
+.container16{
+    margin-top: 200px;
+    width:100%;
+    height:75vh;
+    background-color: #000000e6;
+    position: relative;
+}
+.abc1{
+    position: absolute;
+    margin-top:50px;
+    /* border: 1px solid rgb(244, 238, 238); */
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 6%;
+    color: white;
+}
+.abc1 h1, h3{
+
+    font-weight: lighter;
+    padding: 5px;
+    
+}
+.abc1 ul{
+    list-style: none;
+}
+.abc2{
+    position: absolute;
+    margin-top:80px;
+    /* border: 1px solid rgb(244, 238, 238); */
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 30%;
+    color: white;
+}
+.abc2  h3{
+
+    font-weight: lighter;
+    padding: 5px;
+    
+}
+.abc2 ul{
+    list-style: none;
+}
+.abc3{
+    position: absolute;
+    margin-top:50px;
+    /* border: 1px solid rgb(244, 238, 238); */
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 50%;
+    color: white;
+}
+.abc3 h1, h3{
+
+    font-weight: lighter;
+    padding: 5px;
+    
+}
+.abc3 ul{
+    list-style: none;
+}
+.abc4{
+    position: absolute;
+    width: 400px;
+    height: 320px;
+    /* border: 1px solid white; */
+    right: 1%;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+.abc4 h2,h3{
+    font-weight: lighter;
+    padding: 5px;
+}
+.media{
+    height: 30px;
+    width: 350px;
+    display: flex;
+    margin-right: 15px;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.ep{
+    padding-top: 27px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.sq{
+    display: flex;
+    width: 45%;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+.sq1{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.sq2{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.line{
+    position: absolute;
+    bottom: 28%;
+    width: 98%;margin-left: 1%;
+    border-bottom: 1px solid rgb(240, 235, 235);
+}
+.flag{
+    width: 99%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    bottom: 15%;
+    left: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.flag1 ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+
+}
+.flag1{
+    width: 12%;
+  
+}
+.flag2{
+    width: 180px;
+    height: 60px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ind1 img{
+    border-radius: 50%;
+} 
+.ind2{
+    margin-left: 10px;
+}
+.flag3{
+    width: 24%;
+    text-align: right;
+}
